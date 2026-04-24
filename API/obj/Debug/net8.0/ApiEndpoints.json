@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "API.Controllers.CommissionController",
+    "Method": "Calcular",
+    "RelativePath": "api/Commission/calcular",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Comisiones.Domain.Models.CalculateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
