@@ -32,3 +32,4 @@ C:\Users\elava\source\repos\Comisiones\WebUI\obj\Debug\net8.0\refint\WebUI.dll
 C:\Users\elava\source\repos\Comisiones\WebUI\obj\Debug\net8.0\WebUI.pdb
 C:\Users\elava\source\repos\Comisiones\WebUI\obj\Debug\net8.0\WebUI.genruntimeconfig.cache
 C:\Users\elava\source\repos\Comisiones\WebUI\obj\Debug\net8.0\ref\WebUI.dll
+C:\Users\elava\source\repos\Comisiones\WebUI\obj\Debug\net8.0\WebUI.sourcelink.json
