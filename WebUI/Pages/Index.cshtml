@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Calculadora de Comisiones";
+}
+
+<div class="container mt-5">
+    <h2>Cálculo de Comisiones de Ventas</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label">Ventas Totales</label>
+                    <input type="number" step="0.01" class="form-control" asp-for="RequestDto.VentasTotales" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Descuentos Aplicados</label>
+                    <input type="number" step="0.01" class="form-control" asp-for="RequestDto.Descuentos" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Código de País</label>
+                    <select class="form-select" asp-for="RequestDto.CodigoPais" required>
+                        <option value="">Seleccione un país...</option>
+                        <option value="IN">India (10%)</option>
+                        <option value="US">Estados Unidos (15%)</option>
+                        <option value="UK">Reino Unido (12%)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Calcular</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            @if (Model.Comision.HasValue)
+            {
+                <div class="alert alert-success mt-4">
+                    <h4>Resultado</h4>
+                    <p>La comisión calculada es: <strong>@Model.Comision.Value.ToString("C")</strong></p>
+                </div>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger mt-4">
+                    @Model.ErrorMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>
