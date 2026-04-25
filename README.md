@@ -7,6 +7,10 @@ La solución sigue el Modelo C4 y los principios de Onion Architecture, aseguran
 Diagrama de Contexto
 <img width="1363" height="2176" alt="Hotel Room Management-2026-04-24-233039" src="https://github.com/user-attachments/assets/804b0baf-cbe0-4120-bf1e-0325523a8cca" />
 
+Diagrama de Capas
+<img width="2401" height="5720" alt="Hotel Room Management-2026-04-25-004751" src="https://github.com/user-attachments/assets/1459ccb9-debf-4ce3-8080-519a96c6e37a" />
+
+
 Diagrama de Componentes
 
 <img width="2778" height="2695" alt="Hotel Room Management-2026-04-24-233538" src="https://github.com/user-attachments/assets/dfa6aa48-d7fc-43f7-8b65-06d1c12d0350" />
