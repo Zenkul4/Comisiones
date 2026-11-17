@@ -3,3 +3,13 @@
 *.user
 *.userosscache
 *.sln.docstates
+
+# Local configuration and secrets
+**/appsettings*.json
+!**/appsettings.example.json
+**/secrets*.json
+.env
+.env.*
+!.env.example
+**/bin/
+**/obj/
